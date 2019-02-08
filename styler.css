@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+body {
+	margin:0;
+}
+
+nav > ul > li > a {
+	display:block;
+	color:#fff;
+	padding:8px 16px;
+	text-decoration:none;
+	border-bottom:1px solid #bbb;
+	text-align:right;
+	text-transform:uppercase;
+	font-family:Caveat Brush;
+	font-size:24px;
+}
+
+nav > ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	width:22%;
+	background-color:#444;
+	border:1px solid #555;
+	position:fixed;
+	/* overflow:auto; */
+	float:left;
+	height:100%;
+}
+
+.active {
+	background-color:#4CAF50 !important;
+	color:white !important;
+}
+
+nav ul li a:hover {
+	background-color:#000;
+	color:white;
+}
+
+main > h1{
+	margin-left:2px;
+	padding-bottom:1px;
+	height:100%;
+	background:#eee;
+	font-family:Love Ya Like A Sister;
+	text-align:center;
+	position:sticky;
+	top:0;
+	
+}
+
+main {
+	margin-left:22%;
+}
+
+.cover-image {
+	height:250px;
+	width:100%;
+	margin:0;	
+}
+
+main section {
+	margin-left:2px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+	float: left;
+	width: 65%;
+	padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Create three equal columns that floats next to each other */
+.column2 {
+	float: right;
+	width: 25%;
+	padding: 10px;
+	background-color:yellow;
+	height:1540px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
