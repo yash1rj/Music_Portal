@@ -95,3 +95,9 @@ main section {
 	display: table;
 	clear: both;
 }
+
+.mHist {
+	border:1px solid black;	
+	padding:10px;
+	margin:10px;
+}
