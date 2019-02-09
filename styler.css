@@ -113,7 +113,7 @@ main section {
 	margin:10px;
 }
 
-/* For Websit name on Cover image */
+/* For Website name on Cover image */
 .container {
 	font-size:40px;
 	position:relative;
@@ -129,22 +129,32 @@ main section {
 	transform: translate(-50%, -50%);
 }
 
+/* Styling enlish songs card container for allowing sticky position */
+.ecb {
+	overflow: auto;
+}
 
+/* Styling hindi songs card container for allowing sticky position */
+.hcb {
+	overflow: auto;
+}
+
+/* English songs cards */
 .esongs {
     margin: 8px;
     border: 1px solid gray;
     float: left;
 	width: 240px;
 	height: 280px;
-	position:sticky;
-	top:0;
 }
 
+/* Hovering effect on english song cards */
 .esongs:hover {
     border: 1px solid black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-  
+
+/* Adjusting image in english song cards */
 .esongs img {
 	width: 100%;
 	height: 70%;
@@ -163,8 +173,6 @@ main section {
     float: left;
 	width: 240px;
 	height: 280px;
-	position:sticky;
-	top:0;
 }
 
 .hsongs:hover {
