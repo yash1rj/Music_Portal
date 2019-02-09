@@ -1,10 +1,13 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
 
+/* No margin to body */
 body {
 	margin:0;
 }
 
+/* Navbar links */
 nav > ul > li > a {
 	display:block;
 	color:#fff;
@@ -17,6 +20,7 @@ nav > ul > li > a {
 	font-size:24px;
 }
 
+/* Vertical Navbar */
 nav > ul {
 	list-style-type:none;
 	padding:0;
@@ -30,16 +34,19 @@ nav > ul {
 	height:100%;
 }
 
+/* Active Page */
 .active {
 	background-color:#4CAF50 !important;
 	color:white !important;
 }
 
+/* Navbar links on hover */
 nav ul li a:hover {
 	background-color:#000;
 	color:white;
 }
 
+/* Heading of page with sticky position */
 main > h1{
 	margin-left:2px;
 	padding-bottom:1px;
@@ -52,35 +59,38 @@ main > h1{
 	
 }
 
+/* Main content moved to side by giving margin to avoid collapse with Navbar */
 main {
 	margin-left:22%;
 }
 
+/* Cover image */
 .cover-image {
 	height:250px;
 	width:100%;
 	margin:0;	
 }
 
+/* Giving margin to main content */
 main section {
 	margin-left:2px;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other for index.html */
 .column1 {
 	float: left;
 	width: 65%;
 	padding: 10px;
 }
 
-/* Clear floats after the columns */
+/* Clear floats after the columns for index.html */
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other for index.html */
 .column2 {
 	float: right;
 	width: 25%;
@@ -89,19 +99,21 @@ main section {
 	height:1540px;
 }
 
-/* Clear floats after the columns */
+/* Clear floats after the columns for index.html */
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
+/* For main content in mHistory.html  */
 .mHist {
 	border:1px solid black;	
 	padding:10px;
 	margin:10px;
 }
 
+/* For Websit name on Cover image */
 .container {
 	font-size:40px;
 	position:relative;
@@ -109,6 +121,7 @@ main section {
 	color:white;
 }
 
+/* For centering website name on cover image */
 .centered {
 	position:absolute;
 	top:50%;
@@ -116,12 +129,15 @@ main section {
 	transform: translate(-50%, -50%);
 }
 
+
 .esongs {
     margin: 8px;
     border: 1px solid gray;
     float: left;
 	width: 240px;
 	height: 280px;
+	position:sticky;
+	top:0;
 }
 
 .esongs:hover {
@@ -147,6 +163,8 @@ main section {
     float: left;
 	width: 240px;
 	height: 280px;
+	position:sticky;
+	top:0;
 }
 
 .hsongs:hover {
