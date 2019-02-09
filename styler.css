@@ -115,3 +115,28 @@ main section {
 	left:50%;
 	transform: translate(-50%, -50%);
 }
+
+.esongs {
+    margin: 8px;
+    border: 1px solid gray;
+    float: left;
+	width: 240px;
+	height: 280px;
+}
+
+.esongs:hover {
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.esongs img {
+	width: 100%;
+	height: 70%;
+}
+
+.song audio{
+	display:block;
+	width:238px;
+	height:50px;
+	padding: 17px 1px 17px 1px;
+}
